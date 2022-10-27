@@ -1,4 +1,4 @@
-package task01;
+package task01.price;
 
 public class Price {
     public static void main(String[] args) {

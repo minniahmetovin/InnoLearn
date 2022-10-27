@@ -1,4 +1,4 @@
-package task01;
+package task01.salary;
 
 public class Salary {
     public static void main(String[] args) {

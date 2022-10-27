@@ -1,4 +1,4 @@
-package task01;
+package task01.sectohour;
 
 public class SecToHour {
     public static void main(String[] args) {
