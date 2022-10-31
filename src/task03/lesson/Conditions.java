@@ -1,4 +1,4 @@
-package task03;
+package task03.lesson;
 
 import org.w3c.dom.ls.LSOutput;
 
