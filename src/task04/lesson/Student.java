@@ -1,6 +1,6 @@
 package task04.lesson;
 
-class Student {
+class Student extends Person { //расширяет значения от Person
     String name;
     int age;
     Progress progress;

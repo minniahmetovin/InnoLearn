@@ -1,5 +1,7 @@
 package task04.lesson;
 
+import java.util.Arrays;
+
 public class Lesson {
     public static void main(String[] args) { //ООП
         Student ivan;
@@ -13,6 +15,18 @@ public class Lesson {
         System.out.println(ivan.progress.score);
         ivan.test();
         System.out.println(ivan.progress.score);
+
+        System.out.println(grisha.progress.score);
+        grisha.test();
+        System.out.println(grisha.progress.score);
+
+        System.out.println(Arrays.toString(ivan.getClass().getDeclaredFields()));
+
+        if(ivan == grisha){
+            System.out.println("equals");
+        } else {
+            System.out.println("different"); // сравнение не объектов, а ссылок на объект
+        }
 
     }
 
