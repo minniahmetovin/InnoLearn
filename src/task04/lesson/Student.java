@@ -1,6 +1,6 @@
 package task04.lesson;
 
-class Student extends Person { //расширяет значения от Person
+class Student extends Person { //расширяет значения от класса Person
     String name;
     int age;
     Progress progress;
@@ -9,7 +9,7 @@ class Student extends Person { //расширяет значения от Person
         this.progress = new Progress();
     }
 
-    void test(){
+    void test() {
         //@TODO: реализовать логику прохождения теста
         this.progress.increment();
     }
