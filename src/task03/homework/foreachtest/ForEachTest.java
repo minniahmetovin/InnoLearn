@@ -1,4 +1,4 @@
-package task03.homework;
+package task03.homework.foreachtest;
 
 public class ForEachTest {
 
