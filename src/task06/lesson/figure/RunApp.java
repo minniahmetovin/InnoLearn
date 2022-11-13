@@ -1,6 +1,6 @@
 package task06.lesson.figure;
 
-public class Run {
+public class RunApp {
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle();
         Circle circle = new Circle();
