@@ -55,9 +55,9 @@ public class VendingMachine { //написать программу для ве�
                 break;
             }
 
-            while (type1 != 0) {
-                System.out.println(mainMenu);
-            }
+//            while (type1 != 0) {
+//             //   System.out.println(mainMenu);
+//            }
 
 
             default: {
